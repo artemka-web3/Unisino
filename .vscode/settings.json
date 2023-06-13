@@ -1,0 +1,93 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "window.zoomLevel": 1,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "notebook.lineNumbers": "on",
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Monokai Night",
+    "editor.largeFileOptimizations": false,
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "file-icons",
+    "pgsql.connections": [
+        {
+            "host": "ec2-3-224-157-224.compute-1.amazonaws.com",
+            "dbname": "d304kv08jp0b71",
+            "user": "iwxyjkkksqcyfo",
+            "password": "",
+            "emptyPasswordInput": false,
+            "port": "5432",
+            "profileName": "postgres://iwxyjkkksqcyfo:d990545bc24ecc5a8d25a42c9af5a44793a467726567b9316302123ab5cb668b@ec2-3-224-157-224.compute-1.amazonaws.com:5432/d304kv08jp0b71",
+            "connectTimeout": 15,
+            "encrypt": false,
+            "applicationName": "vscode-pgsql",
+            "hostaddr": "",
+            "options": "",
+            "sslmode": "prefer",
+            "clientEncoding": "",
+            "sslcompression": true,
+            "sslcert": "",
+            "sslkey": "",
+            "sslrootcert": "",
+            "sslcrl": "",
+            "requirepeer": ""
+        }
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.settings.useSplitJSON": true,
+    "hardhat.telemetry": true,
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "git.confirmSync": false,
+    "[scss]": {
+    
+        "editor.suggest.insertMode": "replace"
+    },
+    "[html]": {
+    
+        "editor.suggest.insertMode": "replace"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "solidity.telemetry": true,
+    // foundry config start
+    "solidity.packageDefaultDependenciesContractsDirectory": "src",
+    "solidity.packageDefaultDependenciesDirectory": "lib",
+    "solidity.remappings": [
+        "forge-std/=lib/forge-std/src/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        "chainlink/=lib/chainlink/"
+    ]
+    "editor.formatOnSave": true,
+    "[solidity]": {
+        "editor.defaultFormatter": "JuanBlanco.solidity" 
+    },
+    "solidity.formatter": "forge",
+    "solidity.compileUsingRemoteVersion": "v0.8.18"
+    // foundry config end
+
+    "[solidity]": {
+        
+        "editor.defaultFormatter": "JuanBlanco.solidity",
+
+    }
+}
